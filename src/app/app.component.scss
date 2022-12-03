@@ -1,0 +1,39 @@
+p {
+  font-family: Lato;
+}
+
+table {
+  border-collapse: collapse;
+  border: 0px;
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  th,
+  td {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+  }
+
+  th {
+    background-color: rgb(51, 114, 53);
+    color: white;
+    &.sub {
+      background-color: rgb(90, 121, 115);
+    }
+  }
+}
+
+.button {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-bottom: 16px !important;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
